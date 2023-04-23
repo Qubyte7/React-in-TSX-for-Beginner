@@ -1,0 +1,10 @@
+-------------------------interface-------------------------------------
+In TypeScript, an interface is a way to define the shape of an object.
+ It specifies the names and types of properties that an object should have
+
+------------------------------------------------------------------
+==>       ---State in tsx----
+const [state,setstate]= useState<DATATYPE>();
+ ==>       -------function------------
+ const functionName = (ARG :dataType) :dataType2 =>{}
+                    -->>dataType2 : spesify what kind of data type our function gonna return
