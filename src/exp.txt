@@ -3,8 +3,32 @@ In TypeScript, an interface is a way to define the shape of an object.
  It specifies the names and types of properties that an object should have
 
 ------------------------------------------------------------------
-==>       ---State in tsx----
-const [state,setstate]= useState<DATATYPE>();
+ ==>       ---State in tsx----
+ const [state,setstate]= useState<DATATYPE>();
  ==>       -------function------------
- const functionName = (ARG :dataType) :dataType2 =>{}
+ex:  const functionName = (ARG :dataType) :dataType2 =>{}
                     -->>dataType2 : spesify what kind of data type our function gonna return
+
+
+-------------------------------------redux-------------------------------------------------------
+
+Redux provides a predictable state container,
+ which allows you to manage and update application state in a more organized and maintainable way.
+     ==>REDUCER:A reducer is a pure function that takes the current state and an action, and returns the new state based on that action.
+        --------
+     ==>ConfigureStore: is a function that allows you to create a Redux store with sensible defaults and pre-configured middleware. You can pass in an object that contains the reducers that make up the store's state.
+     ------------------
+     ==>SLICE:this is the way of redux tool kit for automatically generate all of the different parts of our Reducer
+ 
+
+
+
+
+
+
+
+
+
+
+
+
