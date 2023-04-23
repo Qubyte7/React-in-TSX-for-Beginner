@@ -19,7 +19,11 @@ Redux provides a predictable state container,
      ==>ConfigureStore: is a function that allows you to create a Redux store with sensible defaults and pre-configured middleware. You can pass in an object that contains the reducers that make up the store's state.
      ------------------
      ==>SLICE:this is the way of redux tool kit for automatically generate all of the different parts of our Reducer
- 
+     ---------
+     ==>useSelector:The useSelector hook in Redux is used to extract data from the Redux store state in a React component. It allows you to select a specific piece of data from the store and use it in your component, without having to pass it down through props
+     ---------------
+     ==>dispacth:Dispatching refers to the process of sending an action to the Redux store using the dispatch function. 
+     -----------
 
 
 

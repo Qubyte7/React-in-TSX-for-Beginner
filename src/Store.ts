@@ -10,7 +10,7 @@ const userSlice = createSlice({
         //here we are setting the value of the state to what we got from the input box
         },
         logout :(state)=>{
-            state =  initialState
+            state.value =  initialState.value;
         }
     }
 })
