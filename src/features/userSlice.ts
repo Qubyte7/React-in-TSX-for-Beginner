@@ -1,6 +1,7 @@
-import { configureStore,createSlice  } from '@reduxjs/toolkit'
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {value:{username:""}}
+
 const userSlice = createSlice({
     name :"user", //this is like the name of our state
     initialState,
@@ -15,16 +16,6 @@ const userSlice = createSlice({
     }
 })
 
-export const {login , logout} = userSlice.actions;//.actions => means that we are getting the functions from the userSlice
+export const {login, logout} = userSlice.actions
 
-export const Store = configureStore({
-    reducer:{
-        user : userSlice.reducer
-    }
-})
-
-
-
-
-
-
+export default userSlice.reducer
